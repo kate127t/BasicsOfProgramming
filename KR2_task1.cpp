@@ -55,7 +55,7 @@ void swap_el() {
 		if (arr[i] % 2 != 0) {
 			insert_el(arr, n, i, last_not_even);
 			print_array(arr, n);
-			last_not_even = i;
+			last_not_even = i+1;
 		}
 		
 	}
